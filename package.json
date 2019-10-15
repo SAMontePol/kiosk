@@ -1,0 +1,21 @@
+{
+    "name": "kiosko",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "electron src/index.js",
+        "dev": "nodemon src",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "electron": "^6.0.11",
+        "electron-reload": "^1.5.0",
+        "nodemon": "^1.19.3"
+    },
+    "devDependencies": {
+        "electron-packager": "^14.0.6"
+    }
+}

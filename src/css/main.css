@@ -1,0 +1,64 @@
+body {
+    overflow: hidden;
+}
+
+body>img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+}
+
+.nav {
+    background-color: #003366;
+}
+
+.tx-white {
+    color: #fff;
+}
+
+.tx-white:hover {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li>a>img {
+    max-width: 130%;
+    height: auto;
+}
+
+.title {
+    width: 20%;
+}
+
+.list {
+    text-decoration: none;
+    list-style: none;
+}
+
+.bold {
+    font-weight: 550;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.ov {
+    overflow: visible;
+}
+
+.cont {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.kiosko {
+    width: 20%;
+}
